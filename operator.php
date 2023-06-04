@@ -18,4 +18,7 @@
 //comparison operator
 // < ,> ,<= ,>= , == ,!=,===
 
+
+//logical operator
+// && , || , !
 ?>

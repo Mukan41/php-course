@@ -29,10 +29,22 @@ switch ($num){
 
 $a = 10;
 $b = 25;
-// $operator =  ;
+$operator = "add" ;
 switch ($operator){
     case "add":
         print($a + $b);
+        break;
+    case "sub":
+        print($a - $b);
+        break;
+    case "multi":
+        print($a * $b);
+        break;
+    case "div":
+        print($a / $b);
+        break;
+    default :
+        print("other");
         break;
 }
 

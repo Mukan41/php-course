@@ -18,17 +18,38 @@
 
 
 
-$a = 23;
-$b = -35;
-$c = 11;
+$a = -23;
+$b = 35;
+$c = -11;
 
-if($a<$b<$c){
+if($a>$b){
     if ($b>$c){
-        print("b middle")
+        print("a > b > c ");
     }
-    if else(){}
-    // print($a." is greater than".$b. "and" .$c)
+    else{
+        if($a>$c){
+            print("a > c > b ");
+        }
+        else{
+            print("c > a > b ");
+        }
+        
+    }
 }
+else{
+    if($b>$c){
+        if($a>$c){
+            print("b > a > c ");
+        }
+        else{
+            print("b > c > a ");
+        }
+    }
+    else{
+        print("c > b > a ");
+    }
+}
+
 
 
 
