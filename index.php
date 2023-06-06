@@ -23,6 +23,9 @@
             <li>
                 <a href="./assignment/strict-comparision.php">strict-comparision</a>
             </li>
+            <li>
+                <a href="./assignment/odd-even.php">odd even</a>
+            </li>
         </ul>
     </li>
 </ul>
