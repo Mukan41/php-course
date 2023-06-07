@@ -1,3 +1,8 @@
+<form action="">
+    <input type="text" name="number">
+    <button type="submit">submit</button>
+</form>
+
 <?php
 
 $num1 = 34.55;
@@ -11,4 +16,7 @@ else{
 }
 print($num1);
 
+
+
+echo $_GET['number'];
 ?>
